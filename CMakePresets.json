@@ -1,4 +1,4 @@
 {
-    "vesion": 8,
-    "cmakeMinimumRequired": {"Major": 3, "minor": 28, "patch": 3}
+    "version": 8,
+    "cmakeMinimumRequired": {"major": 3, "minor": 28, "patch": 3}
 }
