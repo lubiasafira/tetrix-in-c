@@ -1,5 +1,14 @@
 {
     "cmake.configureOnOpen": true,
     "cmake.useCMakePresets": "always",
-    "cmake.buildDirectory": "${workspaceFolder}/build"
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "[c]": {
+      "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[cpp]": {
+      "editor.defaultFormatter": "xaver.clang-format",
+      "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": true,
+    "clang-format.style": "file"
 }

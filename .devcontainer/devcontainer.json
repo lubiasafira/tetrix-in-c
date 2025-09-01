@@ -7,14 +7,17 @@
 	"features": {
 		"ghcr.io/msclock/features/vcpkg:2": {},
 		"ghcr.io/devcontainers-extra/features/cmake:1": {},
-		"ghcr.io/devcontainers/features/git-lfs:1": {}
+		"ghcr.io/devcontainers/features/git-lfs:1": {},
+		"ghcr.io/devcontainers-community/features/llvm:3": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"ms-vscode.cpptools",
 				"ms-vscode.cmake-tools",
-				"EditorConfig.EditorConfig"
+				"EditorConfig.EditorConfig",
+				"xaver.clang-format",
+				"ms-vscode.cpptools-extension-pack"
 			]
 		}
 	}
