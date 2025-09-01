@@ -5,14 +5,9 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:noble",
 	"features": {
-		"ghcr.io/msclock/features/vcpkg:2": {
-			"vcpkgversion": "latest",
-			"vcpkgroot": "/usr/local/vcpkg",
-			"vcpkgdownload": "/usr/local/vcpkg-downloads"
-		},
-		"ghcr.io/devcontainers-extra/features/cmake:1": {
-			"version": "latest"
-		}
+		"ghcr.io/msclock/features/vcpkg:2": {},
+		"ghcr.io/devcontainers-extra/features/cmake:1": {},
+		"ghcr.io/devcontainers/features/git-lfs:1": {}
 	},
 	"customizations": {
 		"vscode": {
