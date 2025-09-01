@@ -10,5 +10,5 @@
       "editor.formatOnSave": true
     },
     "editor.formatOnSave": true,
-    "clang-format.style": "file"
+    "clang-format.style": "file",
 }
