@@ -1,0 +1,15 @@
+# Padrões de compilação
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# Arquivos de build
+build/
+obj/
+
+# Arquivos temporários do editor/IDE
+.DS_Store
+*.swp
+*.tmp
