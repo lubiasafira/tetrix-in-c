@@ -3,6 +3,7 @@
         "ms-vscode.cpptools",
         "ms-vscode.cmake-tools",
         "editorconfig.editorconfig",
-        "xaver.clang-format"
+        "xaver.clang-format",
+        "jbenden.c-cpp-flylint"
     ]
 }
