@@ -3,7 +3,6 @@ project(tetrix-in-c LANGUAGES C)
 
 find_package(Curses REQUIRED)
 
-add_executable(meu_app main.c)
-target_link_libraries(meu_app PRIVATE ${CURSES_LIBRARIES})
-target_include_directories(meu_app PRIVATE ${CURSES_INCLUDE_DIR})
-
+add_executable(tetrix src/main.c)
+target_link_libraries(tetrix PRIVATE ${CURSES_LIBRARIES})
+target_include_directories(tetrix PRIVATE ${CURSES_INCLUDE_DIR})
