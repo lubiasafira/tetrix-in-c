@@ -5,6 +5,9 @@
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[cpp]": {
     "editor.defaultFormatter": "xaver.clang-format",
     "editor.formatOnSave": true
@@ -18,5 +21,6 @@
   ],
   "c-cpp-flylint.lizard.enable": false,
   "c-cpp-flylint.flawfinder.enable": false,
-  "c-cpp-flylint.flexelint.enable": false
+  "c-cpp-flylint.flexelint.enable": false,
+  "editor.defaultFormatter": "xaver.clang-format",
 }
