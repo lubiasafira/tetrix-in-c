@@ -13,3 +13,6 @@ obj/
 .DS_Store
 *.swp
 *.tmp
+
+# Arquicos temporários de libs
+vcpkg_installed/
