@@ -1,20 +1,13 @@
+#include "render_game/render_game.h"
 #include <ncurses.h>
 
 int main(void) {
-  // inicia
-  initscr();
 
-  // escreve
-  printw("Hello, ncurses!");
+  // inicia render
+  render_init();
 
-  // atualiza
-  refresh();
-
-  // pede um tecla
-  getch();
-
-  // finaliza
-  endwin();
+  // fecha render:
+  render_close();
 
   return 0;
 }

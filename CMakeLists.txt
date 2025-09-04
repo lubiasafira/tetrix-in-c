@@ -3,6 +3,8 @@ project(tetrix-in-c LANGUAGES C)
 
 find_package(Curses REQUIRED)
 
-add_executable(tetrix src/main.c)
+file(GLOB SOURCES "src/*.c")
+
+add_executable(tetrix src/main.c src/render_game/render_game.c)
 target_link_libraries(tetrix PRIVATE ${CURSES_LIBRARIES})
 target_include_directories(tetrix PRIVATE ${CURSES_INCLUDE_DIR})
