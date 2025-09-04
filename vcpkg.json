@@ -2,9 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
   "dependencies": [
     {
-      "name": "ncurses",
-      "version>=": "6.4#3"
+      "name": "ncurses"
     }
-  ],
-  "builtin-baseline": "43a490e0ef650b44a83d2d2770a2a48044779dad"
+  ]
 }
