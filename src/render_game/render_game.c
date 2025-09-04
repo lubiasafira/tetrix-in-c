@@ -12,8 +12,11 @@ void render_init() {
   // limpando screen_buffer
   clear_screen_buffer();
 
+  // escrever no screen_buffer
+  write_screen_buffer(10, 20, 'X');
+
   // printando o buffer
-  print_screen_buffer();
+  render_frame();
 
   getch();
 }
@@ -23,12 +26,12 @@ void render_close() { endwin(); }
 void clear_screen_buffer() {
   for (int i = 0; i < SCREEN_HEIGHT; i++) {
     for (int j = 0; j < SCREEN_WIDTH; j++) {
-      screen_buffer[i][j] = '0';
+      screen_buffer[i][j] = ' ';
     }
   }
 }
 
-void print_screen_buffer() {
+void render_frame() {
   for (int i = 0; i < SCREEN_HEIGHT; i++) {
     for (int j = 0; j < SCREEN_WIDTH; j++) {
       printw("%c", screen_buffer[i][j]);
@@ -37,4 +40,8 @@ void print_screen_buffer() {
   }
 
   refresh();
+}
+
+void write_screen_buffer(int height, int width, char c) {
+  screen_buffer[height][width] = c;
 }
