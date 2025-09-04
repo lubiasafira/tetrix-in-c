@@ -23,8 +23,6 @@ void render_init() {
 
   // printando o buffer
   render_frame();
-
-  getch();
 }
 
 void render_close() { endwin(); }
