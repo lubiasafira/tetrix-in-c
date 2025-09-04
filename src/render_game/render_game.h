@@ -70,5 +70,4 @@ void render_frame();
  * @param O caractere que será desenhado na coordenada height e width.
  */
 void write_screen_buffer(int height, int width, char c);
-
 #endif // RENDER_GAME_H
