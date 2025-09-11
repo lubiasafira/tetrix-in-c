@@ -25,6 +25,8 @@
   "c-cpp-flylint.flexelint.enable": false,
   "editor.defaultFormatter": "xaver.clang-format",
   "files.associations": {
-    "render_game.h": "c"
+    "*.md": "markdown",
+    "render_game.h": "c",
+    "board.h": "c"
   },
 }
