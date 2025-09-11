@@ -9,6 +9,7 @@ add_executable(tetrix
   src/main.c 
   src/render_game/render_game.c 
   src/input_game/input_game.c
+  src/engine_game/engine_game.c
   )
 target_link_libraries(tetrix PRIVATE ${CURSES_LIBRARIES})
 target_include_directories(tetrix PRIVATE ${CURSES_INCLUDE_DIR})

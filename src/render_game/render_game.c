@@ -18,9 +18,6 @@ void render_init() {
   // limpando screen_buffer
   clear_screen_buffer();
 
-  // escrever no screen_buffer
-  write_screen_buffer(10, 20, 'X');
-
   // printando o buffer
   render_frame();
 }
@@ -40,7 +37,7 @@ void render_frame() {
   move(0, 0);
   for (int i = 0; i < SCREEN_HEIGHT; i++) {
     for (int j = 0; j < SCREEN_WIDTH; j++) {
-      printw("%c", screen_buffer[i][j]);
+      printw("%c ", screen_buffer[i][j]);
     }
     printw("\n");
   }
