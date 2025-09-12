@@ -6,4 +6,6 @@
 // inicializa game
 void game_init(Game_state *Game_state);
 
+// criar estágio inicial do game_state
+void clear_game_state(Game_state *game_state);
 #endif
