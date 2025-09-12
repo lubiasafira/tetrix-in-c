@@ -27,6 +27,7 @@
   "files.associations": {
     "*.md": "markdown",
     "render_game.h": "c",
-    "board.h": "c"
+    "board.h": "c",
+    "engine_game.h": "c"
   },
 }
